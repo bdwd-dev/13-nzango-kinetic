@@ -1,0 +1,115 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Reine Mpila",
+      "avatar": "👸",
+      "points": 1250,
+      "wins": 15,
+      "losses": 3,
+      "level": "expert",
+      "region": "Brazzaville"
+    },
+    {
+      "id": 2,
+      "name": "Championne Kribi",
+      "avatar": "🏆",
+      "points": 980,
+      "wins": 12,
+      "losses": 5,
+      "level": "avancé",
+      "region": "Kribi"
+    },
+    {
+      "id": 3,
+      "name": "Étoile Plage",
+      "avatar": "⭐",
+      "points": 750,
+      "wins": 8,
+      "losses": 7,
+      "level": "intermédiaire",
+      "region": "Pointe-Noire"
+    },
+    {
+      "id": 4,
+      "name": "Gazelle Bacongo",
+      "avatar": "🦌",
+      "points": 620,
+      "wins": 6,
+      "losses": 8,
+      "level": "débutant",
+      "region": "Brazzaville"
+    }
+  ],
+  "tournaments": [
+    {
+      "id": 1,
+      "name": "Tournoi Mpila Season 1",
+      "prize": "50.000 XAF + 1Go data",
+      "entry_fee": 500,
+      "max_players": 16,
+      "participants": [
+        {
+          "player_id": 1,
+          "player_name": "Reine Mpila"
+        },
+        {
+          "player_id": 2,
+          "player_name": "Championne Kribi"
+        }
+      ],
+      "status": "ongoing",
+      "start_date": "2026-09-07"
+    },
+    {
+      "id": 2,
+      "name": "Coupe des Reines",
+      "prize": "100.000 XAF",
+      "entry_fee": 1000,
+      "max_players": 32,
+      "participants": [],
+      "status": "open",
+      "start_date": "2026-10-01"
+    }
+  ],
+  "matches": [
+    {
+      "id": 1,
+      "player1": "Reine Mpila",
+      "player2": "Championne Kribi",
+      "winner": "Reine Mpila",
+      "score": "6-3",
+      "tournament_id": 1
+    },
+    {
+      "id": 2,
+      "player1": "Étoile Plage",
+      "player2": "Gazelle Bacongo",
+      "winner": "Étoile Plage",
+      "score": "6-4",
+      "tournament_id": 1
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "type": "entry_fee",
+      "player_id": 1,
+      "tournament_id": 1,
+      "amount": 500,
+      "provider": "MTN",
+      "status": "success",
+      "reference": "NZ1725712200000"
+    },
+    {
+      "id": 2,
+      "type": "entry_fee",
+      "player_id": 2,
+      "tournament_id": 1,
+      "amount": 500,
+      "provider": "MTN",
+      "status": "success",
+      "reference": "NZ1725712200001"
+    }
+  ]
+}
